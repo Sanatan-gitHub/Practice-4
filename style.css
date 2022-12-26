@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.outer{
+    position: relative;
+    background-image: url(http://res-3.cloudinary.com/fieldfisher/image/upload/f_jpg,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05);
+    background-size: cover;
+    height: 100vh;
+}
+.name-left{
+    font-size: 50px;
+    color: orangered;
+}
+.name-right{
+    font-size: 20px;
+    color: white;
+}
+.right-menu{
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+.middle-left{
+    color: white;
+    font-size: 70px;
+}
+.middle-right{
+    color: orangered;
+    font-size: 70px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+}
+.button-1{
+    padding: 5px 15px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+}
+.button-2{
+    padding: 5px 15px;
+    background-color: white;
+    font-size: 15px;
+}
